@@ -5,7 +5,7 @@ description: "Lucky Shane"
 baseurl: ""
 url: "http://carte-noire.jacobtomlinson.co.uk/"
 title_description: "Website for Lucky Shane in progress"
-title_image: "https://www.gravatar.com/avatar/00000000000000000000000000000000?s=500&d=mm"
+title_image: Images/logo.png
 
 # Social usernames/URLs
 #twitter_username: _jacobtomlinson
