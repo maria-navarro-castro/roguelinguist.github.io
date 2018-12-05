@@ -27,10 +27,19 @@ make-smaller-titles: true
 
               <h2>Latest Articles</h2>
 
-		<div id="infotext"> 4107 Bellflower Blvd., Long Beach, CA 90808
-      (562) 496-2030<br />
-      Email us at: <a href="mailto:luckyshanehair@yahoo.com">luckyshanehair@yahoo.com</a> <br />
-      Open: Wed - Fri 10:00 am - 7:00 pm  Sat  9:00 am - 5:00 pm </div>
+              <ul>
+                  {% for post in site.posts limit: site.post_limit %}
+
+                      <li>
+                          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                          <small class="hidden-xs">{{ post.date | date: "%B %-d, %Y" }}</small>
+                      </li>
+
+                  {% endfor %}
+                  <li>
+                      <small><i><a href="{{ site.baseurl }}/posts/">more...</a></i></small>
+                  </li>
+              </ul>
 
             </div>
 
