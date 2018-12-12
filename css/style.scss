@@ -658,7 +658,7 @@ ul {
 					width: 100%;
 					font-family: '';
 					background-color: $darker;
-					color: $white;
+					color: $darker;
 					font-size: 12px;
 					border: none;
 					padding-left: 15px;
@@ -685,7 +685,7 @@ ul {
 					font-family: 'Playfair Display', cursive;
 					font-size: 15px;
 					background-color: $darker;
-					color: $white;
+					color: $darker;
 					padding: 0.5em;
 					vertical-align: middle;
 				}
@@ -740,7 +740,7 @@ ul {
 		margin-bottom: 20px;
 
 		a {
-			color: $white;
+			color: $darker;
 			font-size: 18px;
 			width: auto;
 			padding: 10px 20px;
