@@ -257,12 +257,13 @@ ul {
 	}
 
 	.content-panel:nth-of-type(1) {
-		border-bottom: 10px solid $darker;
+		border-bottom: 10px solid $red;
 	}
 
 	.author-header {
 		font-family: 'Montserrat', sans-serif;
-		color: $red;
+		/* changed color from red to darker*/
+		color: $darker;
 		margin-top: 0px;
 		padding-top: 15px;
 		font-size: 30px;
