@@ -5,6 +5,7 @@ description: "Lucky Shane"
 baseurl: ""
 url: "http://carte-noire.jacobtomlinson.co.uk/"
 title_image: Images/logo.png
+background_image: Images/brick.png
 
 # Social usernames/URLs
 instagram_username: luckyshanehairlb
