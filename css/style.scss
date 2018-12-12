@@ -49,7 +49,7 @@ html {
 body {
 	font-family: 'Playfair Display', cursive;;
 	font-weight: 300;
-	background-color: $darker;
+	background-color: $light-medium;
 	color: $darker;
 	font-size: 16px;
 	height: 100%;
@@ -131,7 +131,7 @@ ul {
 }
 
 .content-panel {
-	background-color: $darker;
+	background-color: $red;
 	padding-top: 90px;
 	padding-bottom: 20px;
 	padding-left: 30px;
@@ -658,7 +658,7 @@ ul {
 					width: 100%;
 					font-family: '';
 					background-color: $darker;
-					color: $darker;
+					color: $white;
 					font-size: 12px;
 					border: none;
 					padding-left: 15px;
@@ -685,7 +685,7 @@ ul {
 					font-family: 'Playfair Display', cursive;
 					font-size: 15px;
 					background-color: $darker;
-					color: $darker;
+					color: $white;
 					padding: 0.5em;
 					vertical-align: middle;
 				}
@@ -740,7 +740,7 @@ ul {
 		margin-bottom: 20px;
 
 		a {
-			color: $darker;
+			color: $white;
 			font-size: 18px;
 			width: auto;
 			padding: 10px 20px;
