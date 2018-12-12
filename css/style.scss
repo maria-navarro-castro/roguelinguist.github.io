@@ -7,6 +7,7 @@
 @import url(https://fonts.googleapis.com/css?family=Abril+Fatface:400);
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
 
 /* Colours */
 $twitter:        #6dabda;
@@ -47,7 +48,7 @@ html {
 }
 
 body {
-	font-family: 'Playfair Display', cursive;
+	font-family: 'Special Elite', cursive;
 	font-weight: 300;
 	background-image: url(../Images/brick.png);
 	background-repeat: repeat;
@@ -683,7 +684,7 @@ ul {
 			p, ul, ol {
 
 				code {
-					font-family: 'Playfair Display', cursive;
+					font-family: 'Special Elite', cursive;
 					font-size: 15px;
 					background-color: $darker;
 					color: $white;
