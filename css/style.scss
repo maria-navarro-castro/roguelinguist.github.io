@@ -47,13 +47,12 @@ html {
 }
 
 body {
-	font-family: 'Playfair Display', cursive;;
+	font-family: 'Playfair Display', cursive;
 	font-weight: 300;
-	background-color: $light-medium;
-	color: $darker;
+	background-image: url("Images/brick.png");
 	font-size: 16px;
 	height: 100%;
-	width: 100%
+	width: 100%;
 }
 
 a, a:active {
