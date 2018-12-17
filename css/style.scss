@@ -141,6 +141,10 @@ ul {
 	margin-top: 20px;
 	box-shadow: 0px 0px 0px 0px, 0px 6px 12px rgba(0, 0, 0, 0.2);
 	border-bottom: 5px solid $darker;
+	@media (min-width: $screen-sm-min) {
+		top: 20px;
+		left: 40px;
+	}
 }
 
 #my-menu {
@@ -192,7 +196,7 @@ ul {
 	.fa-linkedin:hover {
 		color: $linkedin;
 	}
-	
+
 	.fa-xing:hover {
 		color: $xing;
 	}
@@ -200,7 +204,7 @@ ul {
 	.fa-google-plus:hover {
 		color: $google-plus;
 	}
-	
+
 	.fa-facebook:hover {
 		color: $facebook;
 	}
@@ -212,15 +216,15 @@ ul {
 	.fa-stack-overflow:hover {
 		color: $stack-overflow;
 	}
-	
+
 	.fa-instagram:hover {
 		color: $instagram;
 	}
-	
+
 	.fa-reddit-alien:hover {
 		color: $reddit;
 	}
-	
+
 	.fa-rss:hover {
 		color: $rss;
 	}
