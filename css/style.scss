@@ -56,6 +56,13 @@ body {
 	font-size: 16px;
 	height: 100%;
 	width: 100%;
+	img{
+		padding: 0;
+		display: block;
+		margin: 0 auto;
+		max-height: 100%;
+		max-width: 100%;
+	}
 }
 
 a, a:active {
@@ -295,7 +302,7 @@ ul {
 		width: 100%;
 		margin-top: -80px;
 		text-align: center;
-		
+
 	}
 
 	.author-text {
